@@ -4,7 +4,7 @@ title POR AI
 set MAX_CHANNELS=999999
 set STATESERVER=1100
 set ASTRON_IP=127.0.0.1:29170
-set EVENTLOGGER_IP=25.127.0.0.1:29160
+set EVENTLOGGER_IP=127.0.0.1:29160
 
 set DISTRICT_NAME=Davylore
 title POR AI - %DISTRICT_NAME%
@@ -23,7 +23,7 @@ echo ===============================
 cd ../
 
 :main
-"C:\Panda3D-1.10.0\python\ppython.exe" ^
+"C:\p3d\python\ppython.exe" ^
 	-m pirates.ai.ServiceStart ^
 	--base-channel %BASE_CHANNEL% ^
 	--max-channels %MAX_CHANNELS% ^

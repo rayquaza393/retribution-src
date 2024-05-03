@@ -20,7 +20,7 @@ echo ===============================
 cd ../
 
 :main
-"C:\Panda3D-1.10.0\python\ppython.exe" ^
+"C:\p3d\python\ppython.exe" ^
 	-m pirates.uberdog.ServiceStart ^
 	--base-channel %BASE_CHANNEL% ^
 	--max-channels %MAX_CHANNELS% ^

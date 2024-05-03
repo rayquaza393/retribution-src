@@ -2,13 +2,13 @@ daemon:
     name: Developer Cluster
 
 general:
-    eventlogger: 25.91.142.158:29160
+    eventlogger: 127.0.0.1:29160
     dc_files:
         - ../dclass/otp.dc
         - ../dclass/pirates.dc
 
 messagedirector:
-    bind: 25.91.142.158:29170
+    bind: 127.0.0.1:29170
 
 uberdogs:
     - class: ClientServicesManager
@@ -67,5 +67,5 @@ roles:
           - max: 399999999
 
     - type: eventlogger
-      bind: 25.91.142.158:29160
+      bind: 127.0.0.1:29160
       output: ../logs/events-%y%m%d_%H%M%S.log
