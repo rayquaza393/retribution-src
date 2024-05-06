@@ -5,7 +5,7 @@ class PiratesLauncher:
     notify = DirectNotifyGlobal.directNotify.newCategory('PiratesLauncher')
 
     def getGameServer(self):
-        return self.getValue('POR_GAMESERVER', '25.91.142.158')
+        return self.getValue('POR_GAMESERVER', '127.0.0.1')
 
     def setPandaErrorCode(self, code):
         pass
